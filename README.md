@@ -1,6 +1,6 @@
 # Welcome to SpeedMe
 
-## 🚀 Introducing 𝗦𝗽𝗲𝗲𝗱𝗠𝗲: A Powerful Open-Source Website Speed Analysis Tool 🏎️🔍
+## 🚀 Introducing 𝗦𝗽𝗲𝗲𝗱𝗠𝗲: A Powerful Open-Source Website Speed Analysis Tool
 
 Ever wondered how your website could perform better in terms of speed and user experience? Look no further! We are excited to present 𝗦𝗽𝗲𝗲𝗱𝗠𝗲, a comprehensive website speed analyzer that extracts vital performance data from web pages and stores it in a PostgreSQL database for further analysis. 📊
 

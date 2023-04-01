@@ -1,0 +1,20 @@
+CREATE TABLE site_speed_scores (
+  id SERIAL PRIMARY KEY,
+  url VARCHAR(2048) NOT NULL,
+  timestamp TIMESTAMP NOT NULL,
+  performance_score FLOAT NOT NULL,
+  accessibility_score FLOAT NOT NULL,
+  best_practices_score FLOAT NOT NULL,
+  seo_score FLOAT NOT NULL,
+  first_contentful_paint_score FLOAT NOT NULL,
+  first_meaningful_paint_score FLOAT NOT NULL,
+  largest_contentful_paint_score FLOAT NOT NULL,
+  speed_index_score FLOAT NOT NULL,
+  cumulative_layout_shift_score FLOAT NOT NULL,
+  server_response_time_score FLOAT NOT NULL,
+  is_crawlable_score FLOAT NOT NULL,
+  console_errors_score FLOAT NOT NULL,
+  total_byte_weight_score FLOAT NOT NULL,
+  dom_size_score FLOAT NOT NULL,
+  raw_json_data JSONB
+);

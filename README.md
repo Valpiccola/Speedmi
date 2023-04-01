@@ -4,13 +4,15 @@
 
 Ever wondered how your website could perform better in terms of speed and user experience? Look no further! We are excited to present 𝗦𝗽𝗲𝗲𝗱𝗠𝗲, a comprehensive website speed analyzer that extracts vital performance data from web pages and stores it in a PostgreSQL database for further analysis. 📊
 
-## 🔥 SpeedMe Features:
+## 🔥 Speedmi Features:
+
 ✅ Extracts URLs from a sitemap XML file
 ✅ Processes each URL using Google PageSpeed Insights API
 ✅ Collects various performance, accessibility, best practices, and SEO metrics
 ✅ Saves the metrics to a PostgreSQL database
 
 ## 🎓 Getting started:
+
 1️⃣ Create a PostgreSQL database and table
 2️⃣ Set up environment variables for your database credentials and Google PageSpeed API Key
 3️⃣ Run the script by providing your sitemap URL
@@ -57,6 +59,7 @@ python speedme.py "https://example.com/sitemap.xml"
 ```
 
 ## Upcoming Features
+
 ✨ Visualize data with charts and graphs
 ✨ Schedule automatic scans and monitoring
 ✨ Integration with other performance analysis tools

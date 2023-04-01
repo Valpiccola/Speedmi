@@ -41,7 +41,7 @@ CREATE TABLE site_speed_scores (
 
 ### 2: Set the environment variables for your database credentials and Google PageSpeed API Key.
 
-````shell
+```shell
 export DB_USER=
 export DB_PASS=
 export DB_HOST=
@@ -52,7 +52,7 @@ export GOOGLE_SPEED_API_KEY=
 
 ### 3: Call the script passing your sitemap URL
 
-````shell
+```shell
 python speedme.py "https://example.com/sitemap.xml"
 ```
 

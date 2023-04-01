@@ -35,7 +35,8 @@ CREATE TABLE site_speed_scores (
   is_crawlable_score NUMERIC,
   console_errors_score NUMERIC,
   total_byte_weight_score NUMERIC,
-  dom_size_score NUMERIC
+  dom_size_score NUMERIC,
+  raw_json_data JSONB
 );
 ```
 

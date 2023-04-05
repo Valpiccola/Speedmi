@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 import datetime
 import psycopg2
 import requests
@@ -68,7 +69,7 @@ def process_url(url):
     item['total_byte_weight_score'] = audits['total-byte-weight']['score']
     item['dom_size_score'] = audits['dom-size']['score']
 
-    item['raw_json_data'] = data
+    item['raw_json_data'] = json.dumps(data)
 
     return item
 
